@@ -1,0 +1,40 @@
+{
+  "name": "web-ssr",
+  "version": "1.0.0",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt --open",
+    "build": "nuxt build",
+    "start": "nuxt start --port=8085",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.11.0",
+    "axios": "^0.19.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "cheerio": "^1.0.0-rc.3",
+    "element-ui": "^2.13.2",
+    "hc-sticky": "^2.2.3",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.13.0",
+    "sass-loader": "^8.0.2",
+    "swiper": "^4.5.1",
+    "vue-awesome-swiper": "3.1.3",
+    "vue-router": "^3.3.4"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
